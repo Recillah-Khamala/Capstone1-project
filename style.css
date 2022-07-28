@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?famiNanum Gothic:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/lato');           
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+                
 
 * {
   box-sizing: border-box;
@@ -15,7 +17,7 @@ html {
 body {
   border: 0;
   margin: 0;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'lato', sans-serif;
   color: #272a31;
 }
 
@@ -52,8 +54,9 @@ img {
 }
 
 .front-section {
-  background-image: url(/images/firstBackground.svg);
-  background-size: cover;
+  background-image: url(/images/firstBackground1.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: rgb(51, 51, 51);
 }
 
@@ -65,7 +68,8 @@ img {
 }
 
 .front-section h1 {
-  font-size: 78px;
+  font-family: "cocogoose", sans-serif;
+  font-size: 55px;
   color: #ec5242;
   font-weight: 900;
   margin-bottom: 10px;
@@ -188,11 +192,6 @@ hr {
   color: #272a31;
 }
 
-.summit-pic {
-  width: 90%;
-  border: 1px solid darkgrey;
-}
-
 .middle-section {
   border-bottom: 1px solid darkgray;
 }
@@ -212,15 +211,15 @@ hr {
     ),
     url(/images/firstBackground.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
-  width: 86%;
-  margin: 0 auto;
+  /* background-size: ; */
+  /* height: 30vh; */
+  /* width: 86%; */
+  /* margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: white; */
 }
 
 .summit-img1 {
@@ -230,7 +229,7 @@ hr {
       rgba(151, 42, 22, 0.6),
       rgba(151, 42, 22, 0.6)
     ),
-    url(images/meeting-2.jpg);
+    url(./images/firstBackground.svg);
 }
 
 .summit-img h3 {
@@ -332,7 +331,7 @@ footer {
 
 .menu .nav-link {
   color: #fff;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -430,6 +429,12 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 95%;
+  }
+  .front-section {
+    background-image: url(/images/firstBackground.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(51, 51, 51);
   }
 
   .parent {
