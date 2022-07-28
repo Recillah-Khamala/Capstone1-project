@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?famiNanum Gothic:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -14,7 +15,7 @@ html {
 body {
   border: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   color: #272a31;
 }
 
@@ -39,11 +40,11 @@ img {
 }
 
 .about {
-  background-color: #d3d3d3;
   padding: 3%;
-  border: 3px solid white;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 25px;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 247)
 }
 
 .about-p {
@@ -58,16 +59,16 @@ img {
 
 .front-section h2 {
   color: #ec5242;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
 .front-section h1 {
-  font-size: 46px;
+  font-size: 78px;
   color: #ec5242;
-  font-weight: 800;
-  margin-bottom: 50px;
+  font-weight: 900;
+  margin-bottom: 10px;
   background: linear-gradient(rgb(212, 41, 41), #ec5242);
   -webkit-background-clip: text;
   background-clip: text;
@@ -76,14 +77,15 @@ img {
 }
 
 .front-section .date {
-  color: #272a31;
-  font-size: 29px;
-  font-weight: 900;
+  color: rgb(87, 87, 87);
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .location {
-  color: #272a31;
-  font-size: 14px;
+  color: #333;
+  font-size: 1.5em;
   padding-bottom: 10%;
 }
 
@@ -128,8 +130,9 @@ img {
 }
 
 .programs h4 {
-  color: #ec5242;
-  font-weight: 900;
+  color: rgb(239, 81, 60);
+  font-size: 1.5em;
+  font-weight: 700;
 }
 
 .img-program {
@@ -137,7 +140,8 @@ img {
 }
 
 .program-about {
-  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 0.813em;
 }
 
 .logo-about {
@@ -173,12 +177,15 @@ hr {
 }
 
 .p-contact a {
-  font-weight: 900;
+  font-weight: 800;
   color: #272a31;
 }
 
 .mp-title {
-  margin: 20px 20%;
+  margin: 20px 20% 0 20%;
+  font-weight: 400;
+  font-size: 24px;
+  color: #272a31;
 }
 
 .summit-pic {
@@ -203,9 +210,9 @@ hr {
       rgba(151, 42, 22, 0.6),
       rgba(151, 42, 22, 0.6)
     ),
-    url(images/meeting-1.jpg);
+    url(/images/firstBackground.svg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 30vh;
   width: 86%;
   margin: 0 auto;
@@ -325,9 +332,9 @@ footer {
 
 .menu .nav-link {
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
@@ -350,8 +357,8 @@ footer {
 }
 
 .speakers .spk-hr {
-  width: 4%;
-  margin: 15px auto;
+  width: 48%;
+  margin: 6px auto 54px auto;
 }
 
 .developer {
@@ -379,6 +386,7 @@ footer {
 
 .developer-info .divider {
   background-color: seashell;
+  color: seashell;
   border: 1px solid;
   width: 5%;
   margin-bottom: 10px;
@@ -387,8 +395,7 @@ footer {
 
 .developer-followers {
   color: #ec5242;
-  font-style: italic;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
 }
 
@@ -401,7 +408,7 @@ footer {
 }
 
 .developer-details {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .developer-info {
@@ -484,26 +491,26 @@ footer {
   .nav-bottom {
     padding: 1% 10%;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    place-content: center;
-    place-items: center;
+    grid-template-columns: 1fr 6fr;
     font-size: 15px;
+    justify-content: flex-end;
   }
 
   .nav-bottom-ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 15%;
-    text-decoration: none;
-  }
+    }
 
   .nav-bottom-ul a {
+    margin: 0 25px;
     text-decoration: none;
-    color: #414246;
+    color: #888;
     font-weight: 700;
+    font-size: 0.938em;
+    vertical-align: middle;
   }
 
   .nav-bottom .cc-campaign {
