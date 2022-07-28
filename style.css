@@ -1,7 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/lato');           
+@import url('http://fonts.cdnfonts.com/css/lato');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
-
-                
 
 * {
   box-sizing: border-box;
@@ -46,7 +44,7 @@ img {
   font-size: 16px;
   margin-bottom: 25px;
   border: 4px solid rgb(255, 255, 255);
-  background-color: rgb(247, 247, 247)
+  background-color: rgb(247, 247, 247);
 }
 
 .about-p {
@@ -75,8 +73,6 @@ img {
   margin-bottom: 10px;
   background: linear-gradient(rgb(212, 41, 41), #ec5242);
   -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
@@ -211,9 +207,13 @@ hr {
     ),
     url(/images/firstBackground.svg);
   background-repeat: no-repeat;
+
   /* background-size: ; */
+
   /* height: 30vh; */
+
   /* width: 86%; */
+
   /* margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -430,6 +430,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     width: 95%;
   }
+
   .front-section {
     background-image: url(/images/firstBackground.svg);
     background-size: 100%;
@@ -507,7 +508,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    }
+  }
 
   .nav-bottom-ul a {
     margin: 0 25px;
