@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://rn486.github.io/HTML-CSS-JavaScript-capstone-project/)
+[Live Demo Link](http://rn486.github.io/Capstone1-project/)
 
 
 ## Authors
