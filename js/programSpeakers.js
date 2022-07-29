@@ -47,17 +47,19 @@ speakers.forEach((element) => {
   const speakers = document.querySelector('.grid');
   const speaker = document.createElement('div');
   speaker.innerHTML = `
-    <div class="parent">
-      <img src="../images/chessBoard.jpeg" class="dev-bg-tiles" alt="chess" />
-      <img src="${element.image}" alt="" class="developer-image" />
-    </div>
-    <div class="developer-info">
-      <h3 class="developer-name">${element.name}</h3>
-      <p class="developer-followers">${element.profile}</p>
-      <hr class="divider" />
-      <p class="developer-details">
-        ${element.description}
-      </p>
+    <div class="major"
+      <div class="parent">
+        <img src="../images/chessBoard.jpeg" class="dev-bg-tiles" alt="chess" />
+        <img src="${element.image}" alt="" class="developer-image" />
+      </div>
+      <div class="developer-info">
+        <h3 class="developer-name">${element.name}</h3>
+        <p class="developer-followers">${element.profile}</p>
+        <hr class="divider" />
+        <p class="developer-details">
+          ${element.description}
+        </p>
+      </div>
     </div>
   </div>`;
 

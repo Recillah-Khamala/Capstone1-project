@@ -41,7 +41,8 @@ img {
 
 .about {
   padding: 3%;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 12px;
   margin-bottom: 25px;
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 247);
@@ -55,6 +56,7 @@ img {
   background-image: url(/images/firstBackground1.svg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-color: rgb(247, 247, 247);
   color: rgb(51, 51, 51);
 }
 
@@ -67,7 +69,7 @@ img {
 
 .front-section h1 {
   font-family: "cocogoose", sans-serif;
-  font-size: 55px;
+  font-size: 26px;
   color: #ec5242;
   font-weight: 900;
   margin-bottom: 10px;
@@ -78,14 +80,16 @@ img {
 
 .front-section .date {
   color: rgb(87, 87, 87);
-  font-family: Verdana, Tahoma, sans-serif;
-  font-size: 36px;
-  font-weight: 700;
+  font-family: 'cocogoose', Verdana, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .location {
   color: #333;
-  font-size: 1.5em;
+  font-family: 'lato', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
   padding-bottom: 10%;
 }
 
@@ -110,11 +114,11 @@ img {
   grid-template-columns: 1fr 1fr 2fr;
   place-items: center;
   justify-content: center;
-  column-gap: 10px;
-  width: 90%;
+  gap: 2px;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-bottom: 2%;
-  padding: 2% 3%;
+  margin-bottom: 8px;
+  padding: 16px 0;
   list-style-type: none;
 }
 
@@ -131,8 +135,8 @@ img {
 
 .programs h4 {
   color: rgb(239, 81, 60);
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 0.873em;
+  font-weight: 600;
 }
 
 .img-program {
@@ -141,7 +145,9 @@ img {
 
 .program-about {
   color: rgb(255, 255, 255);
-  font-size: 0.813em;
+  font-size: 0.75em;
+  font-family: 'lato', sans-serif;
+  text-align: center;
 }
 
 .logo-about {
@@ -185,7 +191,12 @@ hr {
   margin: 20px 20% 0 20%;
   font-weight: 400;
   font-size: 24px;
-  color: #272a31;
+  color: r;
+}
+
+.summit-pic {
+  width: 90%;
+  border: 1px solid darkgrey;
 }
 
 .middle-section {
@@ -197,6 +208,14 @@ hr {
   padding: 0 7%;
 }
 
+.look {
+  color: rgb(255, 255, 255);
+}
+
+.prev {
+  color: #272a31;
+}
+
 .summit-img {
   background-color: #972a16;
   background-image:
@@ -205,21 +224,17 @@ hr {
       rgba(151, 42, 22, 0.6),
       rgba(151, 42, 22, 0.6)
     ),
-    url(/images/firstBackground.svg);
+    url(/images/Before1.png);
   background-repeat: no-repeat;
-
-  /* background-size: ; */
-
-  /* height: 30vh; */
-
-  /* width: 86%; */
-
-  /* margin: 0 auto;
+  background-size: 100%;
+  height: 30vh;
+  width: 86%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white; */
+  color: white;
 }
 
 .summit-img1 {
@@ -229,7 +244,7 @@ hr {
       rgba(151, 42, 22, 0.6),
       rgba(151, 42, 22, 0.6)
     ),
-    url(./images/firstBackground.svg);
+    url(/images/Before2.png);
 }
 
 .summit-img h3 {
@@ -435,7 +450,26 @@ footer {
     background-image: url(/images/firstBackground.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: rgb(247, 247, 247);
     color: rgb(51, 51, 51);
+  }
+
+  .front-section h1 {
+    font-family: "cocogoose", sans-serif;
+    font-size: 55px;
+    color: #ec5242;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background: linear-gradient(rgb(212, 41, 41), #ec5242);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .front-section .date {
+    color: rgb(87, 87, 87);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
   }
 
   .parent {
@@ -465,7 +499,14 @@ footer {
     width: 70%;
   }
 
-  .menu {
+  .mp-title {
+    margin: 20px 20% 0 20%;
+    font-weight: 400;
+    font-size: 24px;
+    color: #272a31;
+  }
+
+  #mmenu {
     display: none;
   }
 
@@ -568,6 +609,8 @@ footer {
   .main-program .see-projects {
     display: block;
     padding-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
     padding-bottom: 50px;
     text-decoration: underline;
   }
@@ -589,11 +632,19 @@ footer {
   }
 
   .summit-pic {
-    width: 58%;
+    width: 54%;
   }
 
   .prev-look {
     margin-bottom: 50px;
+  }
+
+  .prev {
+    color: #272a31;
+  }
+
+  .look {
+    color: rgb(255, 255, 255);
   }
 
   .summit-grid {
@@ -608,6 +659,16 @@ footer {
 
   .speakers {
     margin: 0 auto;
+    display: flex;
+    overflow: auto;
+  }
+
+  .major {
+    margin: 0px 0px 0px 10px;
+    border: 0px;
+    width: calc(50% - 10px);
+    float: left;
+    height: 249px;
   }
 
   .speakers .mp-title {
@@ -623,13 +684,23 @@ footer {
 
   /* .dev-bg-tiles {
     width: 80px;
-  }
+  } */
 
   .developer-image {
-    width: 200px;
+    float: left;
+    width: 178px;
+    margin-right: 30px;
+    display: block;
   }
 
-  .developer {
+  .developer-name {
+    font-size: 22px;
+    text-align: left;
+    vertical-align: bottom;
+    margin-top: 0.725em;
+  }
+
+  /* .developer {
     display: flex;
   } */
 }
