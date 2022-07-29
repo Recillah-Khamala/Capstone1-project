@@ -383,11 +383,40 @@ footer {
   width: 90%;
 }
 
-.parent {
+/* .parent {
   position: relative;
   top: 0;
   left: 0;
   width: 30%;
+} */
+
+.parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.parent::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+          0deg, #000 0, #000 40px, 
+          #fff 40px, #fff 80px);
+}
+
+.parent::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+      90deg, #000 0, #000 40px, 
+      #fff 40px, #fff 80px);
+  mix-blend-mode: difference;
 }
 
 .dev-bg-tiles {
