@@ -383,13 +383,6 @@ footer {
   width: 90%;
 }
 
-/* .parent {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 30%;
-} */
-
 .parent {
   position: fixed;
   top: 0;
