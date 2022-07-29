@@ -23,7 +23,7 @@ const speakers = [
   {
     name: 'Paul Ngari Nyaga',
     profile: 'Yamagata Motors CEO',
-    image: '../images/proffesor4.jpg',
+    image: '../images/proffesor4.svg',
     description:
       'A visionary leader in the motor industry. He has build his successful company from scratch and now enjoys being the leading importer of vehicles in Africa.',
   },
@@ -49,7 +49,7 @@ speakers.forEach((element) => {
   speaker.innerHTML = `
     <div class="major"
       <div class="parent">
-      <img src="/images/chessBoard.jpeg" class="dev-bg-tiles" alt="chess" />
+      <img src="./images/chessBoard.svg" class="dev-bg-tiles" alt="chess" />
         <img src="${element.image}" alt="" class="developer-image" />
       </div>
       <div class="developer-info">
