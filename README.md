@@ -16,12 +16,12 @@
 [Live Demo Link](http://rn486.github.io/Capstone1-project/)
 
 ## Project Screenshots
-![screenshot](https://media.istockphoto.com/id/1201462385/vector/abstract-modern-speech-bubble-new-label.webp?s=612x612&w=is&k=20&c=fMEcAHuVHkauZE3XgxpsgR7w9wsFCPIuxfXIcG0SsIU=)
-![screenshot](images/projectscreenshot2)
-![screenshot](images/projectscreenshot3)
-![screenshot](images/projectscreenshot4)
-![screenshot](images/projectscreenshot5)
-![screenshot](images/projectscreenshot6)
+![screenshot](images/projectscreenshot1.png)
+![screenshot](images/projectscreenshot2.png)
+![screenshot](images/projectscreenshot3.png)
+![screenshot](images/projectscreenshot4.png)
+![screenshot](images/projectscreenshot5.png)
+![screenshot](images/projectscreenshot6.png)
 
 ## Authors
 
