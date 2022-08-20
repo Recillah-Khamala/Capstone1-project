@@ -17,12 +17,12 @@
 
 ## Project Screenshots
 <p>
-<img src="./images/projectscreenshot1" width="220" height="240"/>
-<img src="./images/projectscreenshot2" width="220" height="240"/>
-<img src="./images/projectscreenshot3" width="220" height="240"/>
-<img src="./images/projectscreenshot4" width="220" height="240"/>
-<img src="./images/projectscreenshot5" width="220" height="240"/>
-<img src="./images/projectscreenshot6" width="220" height="240"/>
+![screenshot](./images/projectscreenshot1")
+![screenshot](./images/projectscreenshot2")
+![screenshot](./images/projectscreenshot3")
+![screenshot](./images/projectscreenshot4")
+![screenshot](./images/projectscreenshot5")
+!{screenshot}(./images/projectscreenshot6")
 </p>
 
 ## Authors
