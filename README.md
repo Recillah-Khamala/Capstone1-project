@@ -11,9 +11,18 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](http://rn486.github.io/Capstone1-project/)
+
+
+## Project Screenshots
+<img src="./images/projectscreenshot1"/>
+<img src="./images/projectscreenshot2"/>
+<img src="./images/projectscreenshot3"/>
+<img src="./images/projectscreenshot4"/>
+<img src="./images/projectscreenshot5"/>
+<img src="./images/projectscreenshot6"/>
 
 
 ## Authors
