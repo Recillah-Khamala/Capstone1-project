@@ -16,12 +16,12 @@
 [Live Demo Link](http://rn486.github.io/Capstone1-project/)
 
 ## Project Screenshots
-![screenshot](./images/projectscreenshot1")
-![screenshot](./images/projectscreenshot2")
-![screenshot](./images/projectscreenshot3")
-![screenshot](./images/projectscreenshot4")
-![screenshot](./images/projectscreenshot5")
-![screenshot](./images/projectscreenshot6")
+![screenshot](images/projectscreenshot1")
+![screenshot](images/projectscreenshot2")
+![screenshot](images/projectscreenshot3")
+![screenshot](images/projectscreenshot4")
+![screenshot](images/projectscreenshot5")
+![screenshot](images/projectscreenshot6")
 
 ## Authors
 
