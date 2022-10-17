@@ -1,45 +1,45 @@
 const speakers = [
   {
     name: 'Ariel Camus',
-    profile: 'Group Chief Customer Officer',
+    profile: 'Founder & CEO, Microverse',
     image: './images/arielCamus.jpg',
     description:
-      'President of consumer safety worldwide. Has over 10 yearf of experience leading customer experinec teams.',
+      'Ariel Camus is the Founder and CEO of Microverse, a school that trains software engineers all around the world and connects them with life-changing international and remote jobs.',
   },
   {
-    name: 'Meshack Wekesa Khamala',
-    profile: 'Eden CEO',
-    image: './images/professor2.svg',
+    name: 'Peter Ndegwa',
+    profile: 'CEO, Safaricom PLC',
+    image: './images/peterNdegwa.jpg',
     description:
-      'A true leader in his generation. Has successfuly started a media house from being a photographer. He hosts major events in the continent courtesy of his visionary skills.',
+      'Peter Ndegwa is a Kenyan businessman, accountant and corporate executive, who serves as the chief executive officer at Safaricom, the largest telecommunications company in the countries of the East African Community.',
   },
   {
-    name: 'Ressy Naomi Muricho',
-    profile: 'Group CSO',
-    image: './images/professor3.svg',
+    name: 'Sherlaender (Lani) Phillips',
+    profile: 'VP, US Channel Sales Organization, Microsoft',
+    image: './images/sherlaender-lani-phillips.jpg',
     description:
-      'Has successfuly lead sales teams in her 15 years of career. She is exceptionally good at closing deals and has seen expansion of her company to open banches beyound africa.',
+      'Her expertise lies in the segment of digital transformation as she acknowledges that every company was confronted with accelerating their digital transformation agenda over the last year.',
   },
   {
     name: 'Paul Ngari Nyaga',
     profile: 'Yamagata Motors CEO',
     image: './images/proffesor4.svg',
     description:
-      'A visionary leader in the motor industry. He has build his successful company from scratch and now enjoys being the leading importer of vehicles in Africa.',
+      'A visionary leader in the motor industry. He has build his successful company from scratch and now enjoys being the leading importer of vehicles.',
   },
   {
-    name: 'Annet Nyamvula williams',
-    profile: 'Chief Marketing Officer',
-    image: './images/professor5.svg',
+    name: 'Janet Schijns',
+    profile: 'CEO, JS Group',
+    image: './images/schijns-janet.jpg',
     description:
-      'She has a wealth of experience in the  social-media marketing. He has singlehandedly led the brand awareness of her comapny and they are the leaders in the banking industry in Kenya',
+      'Janet Schijns, CEO of JS Group, knows that the road to success is long and full of twists and turns. She believes success is not measured by money or power. Instead, it is a perfect combination of fulfilling one’s promise to the team and customers while staying true to one’s morals and living the best possible life.',
   },
   {
     name: 'Faith Namwolo Muricho',
-    profile: 'Global Chief Technology Officer',
+    profile: 'Africa Technical Customer Support Manager, Wasoko',
     image: './images/professor6.svg',
     description:
-      'The 2020 winner of the most coveted EastAfrican HerNovation award. Global tech leader in the banking industry.',
+      'The 2020 winner of the most coveted EastAfrican HerNovation award. She has a strong business and technical acumen to drive continuous process improvements, competitive advantage and bottom-line revenue growth. ',
   },
 ];
 
