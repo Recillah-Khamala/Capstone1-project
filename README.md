@@ -2,7 +2,7 @@
 
 # Project Name
 
-> In this first capstone project, I have built an online website for a leadership conference..
+> In this project, I have built an online website for a leadership conference.
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://rn486.github.io/Capstone1-project/)
+[Live Demo Link](https://sprightly-pasca-290d7e.netlify.app/)
 
 ## Project Screenshots
 ![screenshot](images/projectscreenshot1.png)
