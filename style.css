@@ -381,6 +381,9 @@ footer {
   gap: 3px;
   margin-bottom: 6px;
   width: 90%;
+  transform: translateZ(0) scale(1);
+  transition-property: opacity,transform,-webkit-transform;
+  transition-duration: 1s;
 }
 
 .parent {
