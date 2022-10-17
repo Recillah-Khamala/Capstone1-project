@@ -448,11 +448,10 @@ footer {
 }
 
 .developer-image {
-  position: relative;
-  top: -63px;
-  left: 14px;
-  z-index: 10;
-  width: 85%;
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  float: left;
 }
 
 .developer-details {
