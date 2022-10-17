@@ -1,8 +1,8 @@
 const speakers = [
   {
-    name: 'Recillah Neema Khamala',
+    name: 'Ariel Camus',
     profile: 'Group Chief Customer Officer',
-    image: './images/professor1.svg',
+    image: './images/arielCamus.jpg',
     description:
       'President of consumer safety worldwide. Has over 10 yearf of experience leading customer experinec teams.',
   },
@@ -49,7 +49,7 @@ speakers.forEach((element) => {
   speaker.innerHTML = `
     <div class="major"
       <div class="parent">
-        <div class="dev-bg-tiles" alt="chess"></div>kj
+        <div class="dev-bg-tiles" alt="chess"></div>
         <img src="${element.image}" alt="" class="developer-image" />
       </div>
       <div class="developer-info">
