@@ -423,11 +423,13 @@ footer {
 }
 
 .dev-bg-tiles {
-  width: 30%;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  width: 40px;
+    height: 40px;
+    border: 5px solid #ec5242;
+    border-radius: 50%;
+    position: absolute;
+    background: #f0f0f0 url(./images/speaker.png) 0 0 no-repeat;
+    background-size: cover;
 }
 
 .developer-info .divider {

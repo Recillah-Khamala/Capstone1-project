@@ -49,7 +49,7 @@ speakers.forEach((element) => {
   speaker.innerHTML = `
     <div class="major"
       <div class="parent">
-      <img src="./images/chessBoard.svg" class="dev-bg-tiles" alt="chess" />
+        <div class="dev-bg-tiles" alt="chess"></div>kj
         <img src="${element.image}" alt="" class="developer-image" />
       </div>
       <div class="developer-info">
