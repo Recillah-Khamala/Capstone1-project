@@ -11,7 +11,7 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Link (https://leadership-training.netlify.app)
 
 [Live Demo Link](https://sprightly-pasca-290d7e.netlify.app/)
 
